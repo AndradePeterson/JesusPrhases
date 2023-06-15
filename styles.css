@@ -52,15 +52,16 @@ header h1{
   box-shadow: 0 0 3px 3px #5b5a75;
   border-radius: 5px;
   padding: 15px;
+  position: relative;
 }
 
 .card-body{
     display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 9px;
-  flex-grow: 1;
-  margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 9px;
+    flex-grow: 1;
+    margin-bottom: 20px;
 }
 
 .frase{
@@ -83,6 +84,11 @@ header h1{
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-image: linear-gradient(to bottom, #EEE2DE, #8b89aa);
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    right: 0;
 }
 
 .card-footer img{
