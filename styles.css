@@ -48,7 +48,7 @@ header h1{
   flex-direction: column;
   width: 100%;
   max-width: 55vw;
-  background-image: linear-gradient(to bottom, #EEE2DE 70%, #aaaabe);
+  background-color: #EEE2DE;
   box-shadow: 0 0 3px 3px #5b5a75;
   border-radius: 5px;
   padding: 15px;
