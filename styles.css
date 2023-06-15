@@ -52,6 +52,7 @@ header h1{
     box-shadow: 0 0 3px 3px #5b5a75;
     border-radius: 5px;
     padding: 15px;
+    position: relative;
 }
 
 .card-body{
@@ -83,6 +84,8 @@ header h1{
     align-items: center;
     justify-content: center;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .card-footer img{
